@@ -1,10 +1,32 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <span>hello, World!</span>
-  </body>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>randomizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>randomizer</h1>
+  <div class="container">
+
+    <div class="minmax">
+      <label for="min">от</label>
+      <input id="min" type="text" name="min" value="0" size="1">
+      <label for="max">до</label>
+      <input id="max" type="text" name="max" value="100" size="1">
+    </div>
+    <p>При нажатии на кнопку, получим рандомное число</p>
+    <div class="button">
+      <p>Жми!!!</p>
+    </div>
+    <div class="history">
+      <ul class="results">
+
+      </ul>
+  </div>
+  <script src="main.js" charset="utf-8"></script>
+</body>
+
 </html>
